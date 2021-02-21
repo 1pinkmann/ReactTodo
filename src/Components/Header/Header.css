@@ -6,13 +6,6 @@
   height: 100px;
 }
 
-.header__logo {
-  font-size: 30px;
-  color: #343434;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .header__list {
   display: flex;
 }
