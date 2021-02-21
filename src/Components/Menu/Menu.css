@@ -1,0 +1,8 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__link {
+    color: #343434;
+}

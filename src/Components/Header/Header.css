@@ -1,0 +1,27 @@
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100px;
+}
+
+.header__logo {
+  font-size: 30px;
+  color: #343434;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__item:not(:first-child) {
+  margin-left: 20px;
+}
+
+.header__link {
+  color: #343434;
+  text-transform: uppercase;
+}
