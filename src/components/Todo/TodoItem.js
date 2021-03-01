@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 export default class TodoItem extends Component {
 
@@ -9,7 +9,8 @@ export default class TodoItem extends Component {
     render() {
         return (
             <li className={this.state.completed ? "todo__item completed" : "todo__item"}>
-                <input id={this.props.id} type="checkbox" className="todo__checkbox" checked={this.state.completed} onChange={this.handleCheckboxClick}/>
+                <input id={this.props.id} type="checkbox" className="todo__checkbox" checked={this.state.completed}
+                       onChange={this.handleCheckboxClick}/>
                 <label htmlFor={this.props.id} className="todo__text">{this.props.title}</label>
             </li>
         );
